@@ -1,0 +1,10 @@
+# Creating Investing_Platform
+# Creating a virtual environment for the project
+# Run these commands in terminal to initate env and start with the project
+
+python3 -m venv Investing_Platform
+
+cd Investing_Platform
+
+# Activate env
+source bin/activate
