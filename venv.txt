@@ -7,4 +7,4 @@ python3 -m venv Investing_Platform
 cd Investing_Platform
 
 # Activate env
-source bin/activate1
+source bin/activate
