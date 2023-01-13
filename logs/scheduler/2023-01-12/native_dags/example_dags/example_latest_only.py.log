@@ -1,0 +1,11 @@
+[2023-01-12 10:24:13,261] {processor.py:153} INFO - Started process (PID=122) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-12 10:24:13,264] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-12 10:24:13,268] {logging_mixin.py:115} INFO - [2023-01-12 10:24:13,267] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-12 10:24:13,296] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-12 10:24:19,804] {logging_mixin.py:115} INFO - [2023-01-12 10:24:19,803] {manager.py:508} INFO - Created Permission View: can read on DAG:latest_only
+[2023-01-12 10:24:19,846] {logging_mixin.py:115} INFO - [2023-01-12 10:24:19,846] {manager.py:508} INFO - Created Permission View: can delete on DAG:latest_only
+[2023-01-12 10:24:19,879] {logging_mixin.py:115} INFO - [2023-01-12 10:24:19,879] {manager.py:508} INFO - Created Permission View: can edit on DAG:latest_only
+[2023-01-12 10:24:19,888] {logging_mixin.py:115} INFO - [2023-01-12 10:24:19,888] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-12 10:24:19,941] {logging_mixin.py:115} INFO - [2023-01-12 10:24:19,941] {dag.py:2390} INFO - Creating ORM DAG for latest_only
+[2023-01-12 10:24:19,997] {logging_mixin.py:115} INFO - [2023-01-12 10:24:19,997] {dag.py:2919} INFO - Setting next_dagrun for latest_only to 2023-01-12T06:24:19.994584+00:00, run_after=2023-01-12T10:24:19.994584+00:00
+[2023-01-12 10:24:20,094] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 6.844 seconds
