@@ -1,0 +1,4 @@
+[2023-01-12 10:40:25,154] {processor.py:153} INFO - Started process (PID=191) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-01-12 10:40:25,550] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2023-01-12 10:40:25,641] {logging_mixin.py:115} INFO - [2023-01-12 10:40:25,591] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-01-12 10:41:02,325] {logging_mixin.py:115} INFO - [2023-01-12 10:40:58,145] {timeout.py:67} ERROR - Process timed out, PID: 191
