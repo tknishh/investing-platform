@@ -1,0 +1,11 @@
+[2023-01-12 10:24:21,176] {processor.py:153} INFO - Started process (PID=132) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2023-01-12 10:24:21,188] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2023-01-12 10:24:21,231] {logging_mixin.py:115} INFO - [2023-01-12 10:24:21,231] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2023-01-12 10:24:21,360] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_etl_virtualenv']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2023-01-12 10:24:24,426] {logging_mixin.py:115} INFO - [2023-01-12 10:24:24,425] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api_etl_virtualenv
+[2023-01-12 10:24:24,501] {logging_mixin.py:115} INFO - [2023-01-12 10:24:24,501] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api_etl_virtualenv
+[2023-01-12 10:24:24,562] {logging_mixin.py:115} INFO - [2023-01-12 10:24:24,562] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api_etl_virtualenv
+[2023-01-12 10:24:24,567] {logging_mixin.py:115} INFO - [2023-01-12 10:24:24,566] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-12 10:24:24,621] {logging_mixin.py:115} INFO - [2023-01-12 10:24:24,621] {dag.py:2390} INFO - Creating ORM DAG for tutorial_taskflow_api_etl_virtualenv
+[2023-01-12 10:24:24,693] {logging_mixin.py:115} INFO - [2023-01-12 10:24:24,693] {dag.py:2919} INFO - Setting next_dagrun for tutorial_taskflow_api_etl_virtualenv to None, run_after=None
+[2023-01-12 10:24:24,792] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 3.664 seconds
