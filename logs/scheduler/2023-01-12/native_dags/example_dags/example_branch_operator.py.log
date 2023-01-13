@@ -1,0 +1,11 @@
+[2023-01-12 10:24:24,248] {processor.py:153} INFO - Started process (PID=135) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-12 10:24:24,273] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-01-12 10:24:24,302] {logging_mixin.py:115} INFO - [2023-01-12 10:24:24,302] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-12 10:24:24,486] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-01-12 10:24:27,391] {logging_mixin.py:115} INFO - [2023-01-12 10:24:27,390] {manager.py:508} INFO - Created Permission View: can read on DAG:example_branch_operator
+[2023-01-12 10:24:28,023] {logging_mixin.py:115} INFO - [2023-01-12 10:24:28,022] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_branch_operator
+[2023-01-12 10:24:28,151] {logging_mixin.py:115} INFO - [2023-01-12 10:24:28,151] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_branch_operator
+[2023-01-12 10:24:28,179] {logging_mixin.py:115} INFO - [2023-01-12 10:24:28,179] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-12 10:24:28,393] {logging_mixin.py:115} INFO - [2023-01-12 10:24:28,392] {dag.py:2390} INFO - Creating ORM DAG for example_branch_operator
+[2023-01-12 10:24:28,564] {logging_mixin.py:115} INFO - [2023-01-12 10:24:28,563] {dag.py:2919} INFO - Setting next_dagrun for example_branch_operator to 2023-01-11T00:00:00+00:00, run_after=2023-01-12T00:00:00+00:00
+[2023-01-12 10:24:29,606] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py took 5.405 seconds
