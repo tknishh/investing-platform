@@ -1,0 +1,11 @@
+[2023-01-12 10:23:59,192] {processor.py:153} INFO - Started process (PID=103) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-01-12 10:23:59,199] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2023-01-12 10:23:59,236] {logging_mixin.py:115} INFO - [2023-01-12 10:23:59,236] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-01-12 10:23:59,338] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_python_operator_decorator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2023-01-12 10:24:00,618] {logging_mixin.py:115} INFO - [2023-01-12 10:24:00,618] {manager.py:508} INFO - Created Permission View: can read on DAG:example_branch_python_operator_decorator
+[2023-01-12 10:24:00,681] {logging_mixin.py:115} INFO - [2023-01-12 10:24:00,681] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_branch_python_operator_decorator
+[2023-01-12 10:24:00,703] {logging_mixin.py:115} INFO - [2023-01-12 10:24:00,702] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_branch_python_operator_decorator
+[2023-01-12 10:24:00,708] {logging_mixin.py:115} INFO - [2023-01-12 10:24:00,708] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-12 10:24:00,994] {logging_mixin.py:115} INFO - [2023-01-12 10:24:00,994] {dag.py:2390} INFO - Creating ORM DAG for example_branch_python_operator_decorator
+[2023-01-12 10:24:01,297] {logging_mixin.py:115} INFO - [2023-01-12 10:24:01,296] {dag.py:2919} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2023-01-11T00:00:00+00:00, run_after=2023-01-12T00:00:00+00:00
+[2023-01-12 10:24:01,412] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 2.224 seconds
