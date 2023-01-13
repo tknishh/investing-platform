@@ -1,0 +1,11 @@
+[2023-01-12 10:24:00,328] {processor.py:153} INFO - Started process (PID=104) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-12 10:24:00,330] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-01-12 10:24:00,348] {logging_mixin.py:115} INFO - [2023-01-12 10:24:00,348] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-12 10:24:00,556] {processor.py:651} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-01-12 10:24:02,714] {logging_mixin.py:115} INFO - [2023-01-12 10:24:02,714] {manager.py:508} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2023-01-12 10:24:02,765] {logging_mixin.py:115} INFO - [2023-01-12 10:24:02,765] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2023-01-12 10:24:02,825] {logging_mixin.py:115} INFO - [2023-01-12 10:24:02,825] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2023-01-12 10:24:02,837] {logging_mixin.py:115} INFO - [2023-01-12 10:24:02,837] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-12 10:24:02,900] {logging_mixin.py:115} INFO - [2023-01-12 10:24:02,899] {dag.py:2390} INFO - Creating ORM DAG for example_dag_decorator
+[2023-01-12 10:24:03,018] {logging_mixin.py:115} INFO - [2023-01-12 10:24:03,018] {dag.py:2919} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-01-12 10:24:03,081] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 2.767 seconds
