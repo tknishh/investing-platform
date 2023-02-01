@@ -1,0 +1,11 @@
+[2023-01-12 10:24:06,564] {processor.py:153} INFO - Started process (PID=118) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-12 10:24:06,605] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-01-12 10:24:06,610] {logging_mixin.py:115} INFO - [2023-01-12 10:24:06,609] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-12 10:24:06,694] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-01-12 10:24:07,664] {logging_mixin.py:115} INFO - [2023-01-12 10:24:07,664] {manager.py:508} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2023-01-12 10:24:07,727] {logging_mixin.py:115} INFO - [2023-01-12 10:24:07,726] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2023-01-12 10:24:07,759] {logging_mixin.py:115} INFO - [2023-01-12 10:24:07,759] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2023-01-12 10:24:07,764] {logging_mixin.py:115} INFO - [2023-01-12 10:24:07,764] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-12 10:24:07,854] {logging_mixin.py:115} INFO - [2023-01-12 10:24:07,854] {dag.py:2390} INFO - Creating ORM DAG for example_skip_dag
+[2023-01-12 10:24:07,938] {logging_mixin.py:115} INFO - [2023-01-12 10:24:07,938] {dag.py:2919} INFO - Setting next_dagrun for example_skip_dag to 2023-01-11T10:24:07.914522+00:00, run_after=2023-01-12T10:24:07.914522+00:00
+[2023-01-12 10:24:08,222] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py took 1.675 seconds
