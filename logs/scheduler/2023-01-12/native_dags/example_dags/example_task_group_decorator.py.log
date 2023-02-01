@@ -1,0 +1,4 @@
+[2023-01-12 10:40:17,708] {processor.py:153} INFO - Started process (PID=184) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-12 10:40:17,949] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-01-12 10:40:17,979] {logging_mixin.py:115} INFO - [2023-01-12 10:40:17,978] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-12 10:41:01,834] {logging_mixin.py:115} INFO - [2023-01-12 10:40:57,342] {timeout.py:67} ERROR - Process timed out, PID: 184
