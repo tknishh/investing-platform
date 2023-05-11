@@ -1,0 +1,213 @@
+[2023-01-25 17:32:20,030] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:32:20,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/populating_platform.py for tasks to queue
+[2023-01-25 17:32:20,051] {logging_mixin.py:115} INFO - [2023-01-25 17:32:20,051] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:32:20,385] {logging_mixin.py:115} INFO - [2023-01-25 17:32:20,339] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/populating_platform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/populating_platform.py", line 33, in <module>
+    populate_platform = populate_platform()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2951, in factory
+    with DAG(*dag_bound_args.args, **dag_bound_args.kwargs) as dag_obj:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 394, in __init__
+    date = timezone.parse(date)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timezone.py", line 205, in parse
+    return pendulum.parse(string, tz=timezone or TIMEZONE, strict=False)  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 29, in parse
+    return _parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 45, in _parse
+    parsed = base_parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 74, in parse
+    return _normalize(_parse(text, **_options), **_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 115, in _parse
+    return _parse_iso8601_interval(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 215, in _parse_iso8601_interval
+    if "/" not in text:
+TypeError: argument of type 'datetime.date' is not iterable
+[2023-01-25 17:32:20,387] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:32:20,456] {processor.py:161} INFO - Processing /opt/airflow/dags/populating_platform.py took 0.456 seconds
+[2023-01-25 17:32:51,532] {processor.py:153} INFO - Started process (PID=100) to work on /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:32:51,535] {processor.py:641} INFO - Processing file /opt/airflow/dags/populating_platform.py for tasks to queue
+[2023-01-25 17:32:51,537] {logging_mixin.py:115} INFO - [2023-01-25 17:32:51,537] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:32:52,123] {logging_mixin.py:115} INFO - [2023-01-25 17:32:52,099] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/populating_platform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/populating_platform.py", line 33, in <module>
+    populate_platform = populate_platform()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2951, in factory
+    with DAG(*dag_bound_args.args, **dag_bound_args.kwargs) as dag_obj:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 394, in __init__
+    date = timezone.parse(date)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timezone.py", line 205, in parse
+    return pendulum.parse(string, tz=timezone or TIMEZONE, strict=False)  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 29, in parse
+    return _parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 45, in _parse
+    parsed = base_parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 74, in parse
+    return _normalize(_parse(text, **_options), **_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 115, in _parse
+    return _parse_iso8601_interval(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 215, in _parse_iso8601_interval
+    if "/" not in text:
+TypeError: argument of type 'datetime.date' is not iterable
+[2023-01-25 17:32:52,125] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:32:52,280] {processor.py:161} INFO - Processing /opt/airflow/dags/populating_platform.py took 0.763 seconds
+[2023-01-25 17:33:23,167] {processor.py:153} INFO - Started process (PID=152) to work on /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:33:23,205] {processor.py:641} INFO - Processing file /opt/airflow/dags/populating_platform.py for tasks to queue
+[2023-01-25 17:33:23,217] {logging_mixin.py:115} INFO - [2023-01-25 17:33:23,217] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:33:24,422] {logging_mixin.py:115} INFO - [2023-01-25 17:33:24,235] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/populating_platform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/populating_platform.py", line 33, in <module>
+    populate_platform = populate_platform()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2951, in factory
+    with DAG(*dag_bound_args.args, **dag_bound_args.kwargs) as dag_obj:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 394, in __init__
+    date = timezone.parse(date)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timezone.py", line 205, in parse
+    return pendulum.parse(string, tz=timezone or TIMEZONE, strict=False)  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 29, in parse
+    return _parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 45, in _parse
+    parsed = base_parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 74, in parse
+    return _normalize(_parse(text, **_options), **_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 115, in _parse
+    return _parse_iso8601_interval(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 215, in _parse_iso8601_interval
+    if "/" not in text:
+TypeError: argument of type 'datetime.date' is not iterable
+[2023-01-25 17:33:24,443] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:33:24,689] {processor.py:161} INFO - Processing /opt/airflow/dags/populating_platform.py took 1.584 seconds
+[2023-01-25 17:33:55,998] {processor.py:153} INFO - Started process (PID=208) to work on /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:33:56,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/populating_platform.py for tasks to queue
+[2023-01-25 17:33:56,055] {logging_mixin.py:115} INFO - [2023-01-25 17:33:56,047] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:33:56,605] {logging_mixin.py:115} INFO - [2023-01-25 17:33:56,554] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/populating_platform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/populating_platform.py", line 33, in <module>
+    populate_platform = populate_platform()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2951, in factory
+    with DAG(*dag_bound_args.args, **dag_bound_args.kwargs) as dag_obj:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 394, in __init__
+    date = timezone.parse(date)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timezone.py", line 205, in parse
+    return pendulum.parse(string, tz=timezone or TIMEZONE, strict=False)  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 29, in parse
+    return _parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 45, in _parse
+    parsed = base_parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 74, in parse
+    return _normalize(_parse(text, **_options), **_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 115, in _parse
+    return _parse_iso8601_interval(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 215, in _parse_iso8601_interval
+    if "/" not in text:
+TypeError: argument of type 'datetime.date' is not iterable
+[2023-01-25 17:33:56,606] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:33:56,725] {processor.py:161} INFO - Processing /opt/airflow/dags/populating_platform.py took 0.882 seconds
+[2023-01-25 17:34:27,015] {processor.py:153} INFO - Started process (PID=251) to work on /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:34:27,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/populating_platform.py for tasks to queue
+[2023-01-25 17:34:27,037] {logging_mixin.py:115} INFO - [2023-01-25 17:34:27,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:34:27,248] {logging_mixin.py:115} INFO - [2023-01-25 17:34:27,220] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/populating_platform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/populating_platform.py", line 33, in <module>
+    populate_platform = populate_platform()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2951, in factory
+    with DAG(*dag_bound_args.args, **dag_bound_args.kwargs) as dag_obj:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 394, in __init__
+    date = timezone.parse(date)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timezone.py", line 205, in parse
+    return pendulum.parse(string, tz=timezone or TIMEZONE, strict=False)  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 29, in parse
+    return _parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 45, in _parse
+    parsed = base_parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 74, in parse
+    return _normalize(_parse(text, **_options), **_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 115, in _parse
+    return _parse_iso8601_interval(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 215, in _parse_iso8601_interval
+    if "/" not in text:
+TypeError: argument of type 'datetime.date' is not iterable
+[2023-01-25 17:34:27,250] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:34:27,400] {processor.py:161} INFO - Processing /opt/airflow/dags/populating_platform.py took 0.415 seconds
+[2023-01-25 17:35:09,680] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:35:09,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/populating_platform.py for tasks to queue
+[2023-01-25 17:35:09,688] {logging_mixin.py:115} INFO - [2023-01-25 17:35:09,688] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:35:09,904] {logging_mixin.py:115} INFO - [2023-01-25 17:35:09,841] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/populating_platform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/populating_platform.py", line 33, in <module>
+    populate_platform = populate_platform()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2951, in factory
+    with DAG(*dag_bound_args.args, **dag_bound_args.kwargs) as dag_obj:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 394, in __init__
+    date = timezone.parse(date)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timezone.py", line 205, in parse
+    return pendulum.parse(string, tz=timezone or TIMEZONE, strict=False)  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 29, in parse
+    return _parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 45, in _parse
+    parsed = base_parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 74, in parse
+    return _normalize(_parse(text, **_options), **_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 115, in _parse
+    return _parse_iso8601_interval(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 215, in _parse_iso8601_interval
+    if "/" not in text:
+TypeError: argument of type 'datetime.date' is not iterable
+[2023-01-25 17:35:09,905] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:35:10,116] {processor.py:161} INFO - Processing /opt/airflow/dags/populating_platform.py took 0.441 seconds
+[2023-01-25 17:35:42,706] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:35:42,708] {processor.py:641} INFO - Processing file /opt/airflow/dags/populating_platform.py for tasks to queue
+[2023-01-25 17:35:42,709] {logging_mixin.py:115} INFO - [2023-01-25 17:35:42,709] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:35:42,790] {logging_mixin.py:115} INFO - [2023-01-25 17:35:42,778] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/populating_platform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/populating_platform.py", line 33, in <module>
+    populate_platform = populate_platform()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2951, in factory
+    with DAG(*dag_bound_args.args, **dag_bound_args.kwargs) as dag_obj:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 394, in __init__
+    date = timezone.parse(date)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timezone.py", line 205, in parse
+    return pendulum.parse(string, tz=timezone or TIMEZONE, strict=False)  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 29, in parse
+    return _parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 45, in _parse
+    parsed = base_parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 74, in parse
+    return _normalize(_parse(text, **_options), **_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 115, in _parse
+    return _parse_iso8601_interval(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 215, in _parse_iso8601_interval
+    if "/" not in text:
+TypeError: argument of type 'datetime.date' is not iterable
+[2023-01-25 17:35:42,791] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:35:42,821] {processor.py:161} INFO - Processing /opt/airflow/dags/populating_platform.py took 0.119 seconds
+[2023-01-25 17:38:16,257] {processor.py:153} INFO - Started process (PID=421) to work on /opt/airflow/dags/populating_platform.py
+[2023-01-25 17:38:17,082] {processor.py:641} INFO - Processing file /opt/airflow/dags/populating_platform.py for tasks to queue
+[2023-01-25 17:38:18,295] {logging_mixin.py:115} INFO - [2023-01-25 17:38:17,818] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/populating_platform.py
